@@ -7,6 +7,13 @@ import javafx.stage.Stage;
 
 public class Main {
 
+    /**
+     * Método donde comparamos valor1 con valor2 y se devuelve un mensaje en base a si valor2 es inferior, igual o superior a valor1
+     * @param valor1 Es la primera nota del alumno
+     * @param valor2 Es la segunda nota del alumno
+     * @return Mensaje en base al resultado de la comparación
+     */
+
     private static String veredicto(String valor1, String valor2) {
         if (valor1.equals(valor2)) {
             return "Perfecto. Has tenido buen criterio.";
@@ -16,7 +23,6 @@ public class Main {
         }
         return "Te has confiado. Falta realismo.";
     }
-
 
     public static void main(String[] args) {
 
